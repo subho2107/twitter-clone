@@ -14,7 +14,7 @@ const TweetBox = () => {
             verified: true,
             text: tweetMessage,
             image: tweetImage,
-            avatar: "https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/71773935_459662254758437_8646048515815899136_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=d_xGXDUIi1wAX8bEa89&_nc_ht=scontent.fccu3-1.fna&oh=4ec7c20b251333139e7dac514b14485d&oe=6032968B",
+            avatar: "https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/67411709_415162175875112_5645915560643395584_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=5dQTbJpTFisAX8btRfv&_nc_ht=scontent.fccu3-1.fna&oh=2278780dbef7b6323150f114f26e3c96&oe=61544366",
         });
         setTweetMessage("");
         setTweetImage("");
@@ -24,7 +24,7 @@ const TweetBox = () => {
             <form>
                 <div className="tweetBox__input">
                     <Avatar
-                        src='https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/71773935_459662254758437_8646048515815899136_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=d_xGXDUIi1wAX8bEa89&_nc_ht=scontent.fccu3-1.fna&oh=4ec7c20b251333139e7dac514b14485d&oe=6032968B'/>
+                        src='https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/67411709_415162175875112_5645915560643395584_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=5dQTbJpTFisAX8btRfv&_nc_ht=scontent.fccu3-1.fna&oh=2278780dbef7b6323150f114f26e3c96&oe=61544366'/>
                     <input placeholder="What's happening" type='text' onChange={e => setTweetMessage(e.target.value)}
                            value={tweetMessage}/>
                 </div>
