@@ -14,7 +14,7 @@ const TweetBox = () => {
             verified: true,
             text: tweetMessage,
             image: tweetImage,
-            avatar: "https://lh3.googleusercontent.com/a-/AOh14GhryYwQYwxiOu-Zh72jShKLP4PxUVEM2Gd3tNQi5ro=s288-p-rw-no",
+            avatar: "https://i.ibb.co/CvTJvJ7/241637070-906056000119058-609799124452711299-n.jpg",
         });
         setTweetMessage("");
         setTweetImage("");
@@ -24,7 +24,7 @@ const TweetBox = () => {
             <form>
                 <div className="tweetBox__input">
                     <Avatar
-                        src='https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/67411709_415162175875112_5645915560643395584_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=5dQTbJpTFisAX8btRfv&_nc_ht=scontent.fccu3-1.fna&oh=2278780dbef7b6323150f114f26e3c96&oe=61544366'/>
+                        src='https://i.ibb.co/CvTJvJ7/241637070-906056000119058-609799124452711299-n.jpg'/>
                     <input placeholder="What's happening" type='text' onChange={e => setTweetMessage(e.target.value)}
                            value={tweetMessage}/>
                 </div>
